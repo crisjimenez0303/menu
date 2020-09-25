@@ -38,7 +38,7 @@ label{
     width: 26px;
     float: right;
 }
-toggle{
+#toggle{
     display: none;
 }
 @media only screen and (max-width: 630px){
@@ -49,7 +49,7 @@ toggle{
     .menu{
         text-align: center;
         width: 100%;
-        display: none;
+        display:none;
     }
     .menu a{
         display: block;
