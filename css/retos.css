@@ -6,15 +6,16 @@ h1{
 #cuadro{
     width: 500px;
     height: 500px;
-    border: 2px solid gray;
+    border: 1px solid gray;
+    position: relative;
     margin: 0 auto;
+    
 }
 #cuadro1{
     width: 100px;
     height: 100px;
     background: red;
-    float: left;
-    position: relative;
+    position: absolute;
     top: 20%;
     left: 20%;
 }
@@ -22,8 +23,7 @@ h1{
     width: 100px;
     height: 100px;
     background:blue;
-    float: right;
-    position: relative;
+    position: absolute;
     right: 20%;
     top: 20%;
 }
@@ -31,16 +31,16 @@ h1{
     width: 100px;
     height: 100px;
     background: green;
-    float: left;
     top: 300px;
-    position: relative;
+    right: 100px;
+    position: absolute;
     
 }
 #cuadro4{
     width: 100px;
     height: 100px;
     background: greenyellow;
-    float: right;
     top: 300px;
-    position: relative;
+    left: 100px;
+    position: absolute;
 }
