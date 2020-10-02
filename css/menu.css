@@ -33,6 +33,9 @@ h1{
     color: gray;
     margin: 0 10px;
 }
+.menu li{
+    display: inline;
+}
 label{
     margin: 0 40px 0 0;
     font-size: 26px;
