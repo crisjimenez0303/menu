@@ -3,9 +3,44 @@ h1{
     width: 100%;
     text-align: center;
 }
-div{
-    width: 400px;
-    height: 400px;
+#cuadro{
+    width: 500px;
+    height: 500px;
     border: 2px solid gray;
     margin: 0 auto;
+}
+#cuadro1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    float: left;
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+#cuadro2{
+    width: 100px;
+    height: 100px;
+    background:blue;
+    float: right;
+    position: relative;
+    right: 20%;
+    top: 20%;
+}
+#cuadro3{
+    width: 100px;
+    height: 100px;
+    background: green;
+    float: left;
+    top: 300px;
+    position: relative;
+    
+}
+#cuadro4{
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    float: right;
+    top: 300px;
+    position: relative;
 }
